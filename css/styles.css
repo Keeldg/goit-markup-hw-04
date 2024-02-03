@@ -97,6 +97,25 @@ img {
 .links .link {
   color: #2e2f42;
 }
+
+.links-studio {
+  color: #404bbf;
+}
+
+.links-studio:hover:after {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  content: "";
+  width: 48px;
+  height: 4px;
+  gap: 20px;
+  border-radius: 2px;
+  background-color: #404bbf;
+  padding-bottom: 4px;
+  flex-shrink: 0;
+}
+
 /*.links .akt-link {
   display: block;
   padding: 8px 12px;
@@ -449,4 +468,4 @@ img {
 }
 .media-icon {
 }
-/*2024 01 30*/
+/*2024 02 03*/
